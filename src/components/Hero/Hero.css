@@ -1,0 +1,120 @@
+.hero-container {
+    background-image: url('../../assets/images/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 7em;
+    position: relative;
+    overflow: hidden;
+}
+
+.curve {
+    position: absolute;
+    right: -10px;
+    top: -110px;
+}
+
+.hero-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 3em;
+}
+
+.logo-link {
+    height: 80px;
+}
+
+.hero-content {
+    color: #fff;
+    margin-top: 10em;
+    padding-left: 12em;
+    padding-bottom: 10em;
+    max-width: 1300px;
+    margin-inline: auto;
+    position: relative;
+    float: left;
+}
+
+@media (max-width: 800px) {
+    .hero-content {
+        margin-top: 5em;
+        max-width: max-content;
+        float: none;
+        padding-left: 0;
+        padding-top: 0;
+        margin-inline: auto;
+    }
+
+    .hero-title {
+        font-size: 5.25rem !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .hero-title {
+        font-size: 4.25rem !important;
+    }
+
+    .hero-description {
+        font-size: 1.2rem !important;
+    }
+
+    .note-image {
+        transform: translate(25px, -60%) !important;
+    }
+
+    .hero-header {
+        padding: 2em 2em;
+    }
+}
+
+.note-image {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translate(50px, -80%);
+}
+
+.indulge-text {
+    font-size: 1rem;
+    font-family: 'Montserrat-Regular';
+    font-weight: 600;
+    position: relative;
+    top: 1px;
+}
+
+.hero-title {
+    font-family: "Noto Serif";
+    font-weight: 700;
+    font-size: 102px;
+    line-height: 106.59px;
+}
+
+.hero-description {
+    font-family: "Noto Serif";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 138.5%; /* 27.7px */
+letter-spacing: 0.4px;
+    margin-top: 1.1em;
+}
+
+.explore-button {
+    border: 1px solid #FFF;
+    padding: .8em 3.6em;
+    margin-inline: auto;
+    display: block;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: .4s all ease;
+    font-family: 'Noto Serif';
+    clear: left;
+}
+
+.explore-button:hover {
+    background-color: #FFF;
+    color: #000;
+}

@@ -2,26 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+
+@import url(https://db.onlinewebfonts.com/c/0bd2c98a45d8f4051de91ba8fb420b6c?family=Noto+Serif);
+@import url(https://db.onlinewebfonts.com/c/07689d4eaaa3d530d58826b5d7f84735?family=Montserrat-Regular);
+
+@font-face {
+  font-family: "Noto Serif";
+  src: url("https://db.onlinewebfonts.com/t/0bd2c98a45d8f4051de91ba8fb420b6c.eot");
+  src: url("https://db.onlinewebfonts.com/t/0bd2c98a45d8f4051de91ba8fb420b6c.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/0bd2c98a45d8f4051de91ba8fb420b6c.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/0bd2c98a45d8f4051de91ba8fb420b6c.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/0bd2c98a45d8f4051de91ba8fb420b6c.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/0bd2c98a45d8f4051de91ba8fb420b6c.svg#Noto Serif")format("svg");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("https://db.onlinewebfonts.com/t/07689d4eaaa3d530d58826b5d7f84735.eot");
+  src: url("https://db.onlinewebfonts.com/t/07689d4eaaa3d530d58826b5d7f84735.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/07689d4eaaa3d530d58826b5d7f84735.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/07689d4eaaa3d530d58826b5d7f84735.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/07689d4eaaa3d530d58826b5d7f84735.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/07689d4eaaa3d530d58826b5d7f84735.svg#Montserrat-Regular")format("svg");
 }
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style-type: none;
+}
+
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: "Noto Serif", "";
+  font-style: normal;
+}
+
+.container {
+  padding: 0px 20px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1400px;
+  width: 100%;
+}
+
+img {
+  vertical-align: middle;
 }
