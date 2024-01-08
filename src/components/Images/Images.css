@@ -1,0 +1,44 @@
+.images {
+    display: flex;
+    position: relative;
+  }
+  .images .images-first {
+    width: 50%;
+  }
+
+  .images .images-second {
+    width: 50%;
+  }
+
+  .images .O {
+    position: absolute;
+    top: 40%;
+    max-width: 300px;
+    right: 0;
+    height: 800px;
+  }
+
+  @media (max-width: 1000px) {
+    .images .O {
+      height: 600px;
+      top: 30%;
+    }
+  }
+  @media (max-width: 500px) {
+    .images .O {
+      height: 400px;
+      top: 10%;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .images {
+      flex-direction: column;
+    }
+    .images img {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    
+  }
