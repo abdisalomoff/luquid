@@ -8,6 +8,7 @@ import Note from "../../icons/note.svg"
 
 const Hero = () => {
   return (
+
     <div className="hero-container">
       <div className="container">
       <header className="hero-header">
@@ -26,6 +27,7 @@ const Hero = () => {
       <Image className="curve" width={1367} height={768} src={Line} alt="Liner"/>
       </div>
     </div>
+    
   );
 };
 

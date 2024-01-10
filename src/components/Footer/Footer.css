@@ -1,0 +1,69 @@
+/* O'zgartirilmagan CSS fayli */
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2.4em 3.4em;
+    background-image: url('../../assets/images/mask-group.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  footer .social-media {
+    align-self: flex-end;
+  }
+  
+  footer .social-media img:nth-child(2) {
+    margin-inline: 10px;
+  }
+  
+  footer .content {
+    text-align: center;
+    margin-top: 1.7em;
+    margin-bottom: 2em;
+  }
+  
+  footer .content p {
+    font-size: 0.687rem;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1em;
+  }
+  
+  footer .copyright {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer .copyright p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: .875rem;
+  }
+  
+  footer .copyright p span {
+    font-family: inherit;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 700px) {
+    footer {
+      padding: 1.3em 2em;
+    }
+  
+    footer .social-media {
+      align-self: auto;
+    }
+  
+    footer .copyright {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    footer .copyright p:first-child {
+      margin-bottom: .3em;
+    }
+  }
+  

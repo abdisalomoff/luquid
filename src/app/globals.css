@@ -1,6 +1,6 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 
 @import url(https://db.onlinewebfonts.com/c/0bd2c98a45d8f4051de91ba8fb420b6c?family=Noto+Serif);
@@ -34,6 +34,7 @@
   scroll-behavior: smooth;
   text-decoration: none;
   list-style-type: none;
+  color: #fff;
 }
 
 
